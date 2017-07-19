@@ -52,7 +52,7 @@ body{
   font-size: .9em;
 }
 
-.signup-form btn.btn-signup{
+.signup-form .btn.btn-signup{
   background-color: #125688;
 
 }
