@@ -1,0 +1,18 @@
+{
+  "name": "platzigram",
+  "version": "0.1.0",
+  "description": "comparte tus fotos estudiando con los chicos de platzi",
+  "main": "server.js",
+  "keywords": [
+    "platzi",
+    "curso",
+    "de",
+    "FundamentosJavascript",
+    "Platzigram"
+  ],
+  "author": "Ignacio Briones <i.briones.santander@gmail.com> (https://www.linkedin.com/in/ignaciobrioness)",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.15.3"
+  }
+}
