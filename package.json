@@ -13,6 +13,12 @@
   "author": "Ignacio Briones <i.briones.santander@gmail.com> (https://www.linkedin.com/in/ignaciobrioness)",
   "license": "MIT",
   "dependencies": {
-    "express": "^4.15.3"
+    "express": "^4.15.3",
+    "materialize-css": "^0.100.1"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^3.1.0"
   }
 }
