@@ -14,7 +14,8 @@
   "license": "MIT",
   "dependencies": {
     "express": "^4.15.3",
-    "materialize-css": "^0.100.1"
+    "materialize-css": "^0.100.1",
+    "pug": "^2.0.0-rc.2"
   },
   "devDependencies": {
     "gulp": "^3.9.1",
