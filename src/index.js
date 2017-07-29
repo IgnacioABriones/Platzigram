@@ -8,7 +8,7 @@ page('/', function(ctx, next){
 
 
 page('/signup', function(ctx, next){
-  main.innerHTML = 'Signup <a href="/">Home</a>'; // diga signup
+  main.innerHTML = 'Signup hola hola hhh <a href="/">Home</a>'; // diga signup
 })
 
 page('/signin', function(ctx, next){
