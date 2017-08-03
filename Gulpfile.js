@@ -44,16 +44,10 @@ function compile(watch) {
   rebundle();
 }
 
-
-
-
 gulp.task('build', function () {
-return compile();
+  return compile();
 });
 
-
-gulp.task('watch', function () {
-  return compile(true);
-});
+gulp.task('watch', function () { return compile(true); });
 
 gulp.task('default', ['styles', 'assets', 'build']);

@@ -8,8 +8,9 @@ body{
   font-family: Montserrat;
 }
 
-#main-container{
+.landing{
   margin: 30px auto;
+
 }
 
 .iphone {
@@ -31,9 +32,10 @@ body{
   text-align: center;
 }
 
-.signup-box .platzigram{
+.platzigram {
   font-family: 'Oleo Script';
   font-size: 42x;
+  color: $secondary-color !important ;
 }
 
 .signup-form{
@@ -57,6 +59,16 @@ body{
 }
 
 .signup-form .btn.btn-signup{
-  background-color: #125688;
+  background-color: $secondary-color;
 
+}
+.header {
+  background-color: white;
+  color: $secondary-color;
+  box-shadow: none;
+  border-bottom: 1px solid #edeeee;
+}
+
+.timeline {
+  padding: 30px 0; /*relleno       */
 }
