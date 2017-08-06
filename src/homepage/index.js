@@ -16,7 +16,7 @@ page('/', function(ctx, next){
   			avatar: 'https://scontent.fscl14-1.fna.fbcdn.net/v/t1.0-1/p240x240/18425566_10213226037144284_911498844009859581_n.jpg?oh=b4571579ecf203c5289a53d6aab3c8ea&oe=59FF9237'
   		},
   		url: 'office.jpg',
-  		likes: 10,
+  		likes: 0,
   		liked: false,
   		createdAt: new Date()
   	},
@@ -26,7 +26,7 @@ page('/', function(ctx, next){
   			avatar: 'https://scontent.fscl14-1.fna.fbcdn.net/v/t1.0-1/p240x240/18425566_10213226037144284_911498844009859581_n.jpg?oh=b4571579ecf203c5289a53d6aab3c8ea&oe=59FF9237'
   		},
   		url: 'office.jpg',
-  		likes: 2,
+  		likes: 1,
   		liked: true,
   		createdAt: new Date().setDate(new Date().getDate()-10)
   	}
