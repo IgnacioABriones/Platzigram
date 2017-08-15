@@ -15,12 +15,19 @@ var el = yo`<footer class="site-footer">
   </div>
 </footer>`;
 
-function lang(locale) {
+/*function lang(locale) {
   localStorage.locale = locale;
   location.reload();
   return false;
 }
-
+*/
+function lang(locale) {
+  if(localStorage.locale != locale){
+    localStorage.locale = locale;
+  location.reload();
+  }
+  return false;
+}
 
 
 document.body.appendChild(el);
